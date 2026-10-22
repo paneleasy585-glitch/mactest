@@ -1,0 +1,7 @@
+name: SmokeMac
+on: workflow_dispatch
+jobs:
+  t:
+    runs-on: macos-15
+    steps:
+      - run: echo hello-public-mac
