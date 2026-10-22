@@ -1,0 +1,7 @@
+name: T-macos-latest
+'on: workflow_dispatch
+jobs:
+  t:
+    runs-on: macos-latest
+    steps:
+      - run: echo hi
