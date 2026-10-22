@@ -1,0 +1,7 @@
+name: T-windows-latest
+'on: workflow_dispatch
+jobs:
+  t:
+    runs-on: windows-latest
+    steps:
+      - run: echo hi
